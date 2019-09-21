@@ -1,0 +1,4 @@
+/snap/clion/83/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/cmake-build-debug
