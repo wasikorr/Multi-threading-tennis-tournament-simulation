@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.cpp
+ncurses.h
+-
+string
+-
+pthread.h
+-
+iostream
+-
+App.hpp
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
+
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
 vector
 -
@@ -17,8 +29,22 @@ Table.hpp
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Table.hpp
 Ball.hpp
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+DrawManager.hpp
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
 
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.cpp
+curses.h
+-
+string
+-
+DrawManager.hpp
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
+App.hpp
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
+
+/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
 
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.hpp
 Player.hpp

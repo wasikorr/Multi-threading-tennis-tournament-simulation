@@ -11,7 +11,46 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020437f3-55e1-4457-8857-6bc6d0777701" name="Default Changelist" comment="" />
+    <list default="true" id="020437f3-55e1-4457-8857-6bc6d0777701" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DrawManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DrawManager.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/App.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/App.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/table_tannis_champ_simulation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/table_tannis_champ_simulation" beforeDir="false" afterPath="$PROJECT_DIR$/bin/table_tannis_champ_simulation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/Player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/table_tannis_champ_simulation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table_tannis_champ_simulation" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table_tannis_champ_simulation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/table_tannis_champ_simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/table_tannis_champ_simulation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +61,12 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="false" derivedClasses="false" />
   <component name="ProjectId" id="1RAJpMJMFcz5lMMRr8FSK5efTjS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />

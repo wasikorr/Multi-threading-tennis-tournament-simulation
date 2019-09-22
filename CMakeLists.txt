@@ -3,7 +3,7 @@ project(table_tannis_champ_simulation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(table_tannis_champ_simulation main.cpp Table.hpp Table.cpp Player.hpp Player.cpp Ball.hpp Ball.cpp Judge.hpp Judge.cpp App.hpp App.cpp)
+add_executable(table_tannis_champ_simulation main.cpp Table.hpp Table.cpp Player.hpp Player.cpp Ball.hpp Ball.cpp Judge.hpp Judge.cpp App.hpp App.cpp DrawManager.hpp DrawManager.cpp)
 
 find_package(Curses REQUIRED)
 include_directories(${CURSES_INCLUDE_DIR})

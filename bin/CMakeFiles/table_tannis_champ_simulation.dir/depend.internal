@@ -5,12 +5,21 @@ CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.cpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Player.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Table.hpp
 CMakeFiles/table_tannis_champ_simulation.dir/Ball.cpp.o
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.cpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.o
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.cpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Player.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Table.hpp
 CMakeFiles/table_tannis_champ_simulation.dir/Judge.cpp.o
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.cpp
@@ -26,6 +35,7 @@ CMakeFiles/table_tannis_champ_simulation.dir/Table.cpp.o
 CMakeFiles/table_tannis_champ_simulation.dir/main.cpp.o
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp
+ /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Player.hpp
  /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Table.hpp

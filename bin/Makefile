@@ -177,6 +177,33 @@ Ball.cpp.s:
 	$(MAKE) -f CMakeFiles/table_tannis_champ_simulation.dir/build.make CMakeFiles/table_tannis_champ_simulation.dir/Ball.cpp.s
 .PHONY : Ball.cpp.s
 
+DrawManager.o: DrawManager.cpp.o
+
+.PHONY : DrawManager.o
+
+# target to build an object file
+DrawManager.cpp.o:
+	$(MAKE) -f CMakeFiles/table_tannis_champ_simulation.dir/build.make CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.o
+.PHONY : DrawManager.cpp.o
+
+DrawManager.i: DrawManager.cpp.i
+
+.PHONY : DrawManager.i
+
+# target to preprocess a source file
+DrawManager.cpp.i:
+	$(MAKE) -f CMakeFiles/table_tannis_champ_simulation.dir/build.make CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.i
+.PHONY : DrawManager.cpp.i
+
+DrawManager.s: DrawManager.cpp.s
+
+.PHONY : DrawManager.s
+
+# target to generate assembly for a file
+DrawManager.cpp.s:
+	$(MAKE) -f CMakeFiles/table_tannis_champ_simulation.dir/build.make CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.s
+.PHONY : DrawManager.cpp.s
+
 Judge.o: Judge.cpp.o
 
 .PHONY : Judge.o
@@ -300,6 +327,9 @@ help:
 	@echo "... Ball.o"
 	@echo "... Ball.i"
 	@echo "... Ball.s"
+	@echo "... DrawManager.o"
+	@echo "... DrawManager.i"
+	@echo "... DrawManager.s"
 	@echo "... Judge.o"
 	@echo "... Judge.i"
 	@echo "... Judge.s"

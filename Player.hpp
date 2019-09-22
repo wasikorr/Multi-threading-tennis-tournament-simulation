@@ -14,12 +14,12 @@ class Player
 
 public:
     int id;
-    bool hasBreak;
     int defaultX;
     int defaultY;
     int actualX;
     int actualY;
     bool isPlaying;
+    bool hasBreak;
 
     Player *opponent;
     int playOnTableID;
@@ -27,9 +27,9 @@ public:
     Ball *ball;
 
     std::mutex mutexPlayer;
-    std::condition_variable ifVarPlayer;
-
     std::mutex mutexOpponent;
+
+    std::condition_variable ifVarPlayer;
     std::condition_variable ifVarOpponent;
 
     Player();

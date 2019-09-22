@@ -96,6 +96,12 @@
 		<Unit filename="/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.hpp">
 			<Option target="table_tannis_champ_simulation"/>
 		</Unit>
+		<Unit filename="/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.cpp">
+			<Option target="table_tannis_champ_simulation"/>
+		</Unit>
+		<Unit filename="/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.hpp">
+			<Option target="table_tannis_champ_simulation"/>
+		</Unit>
 		<Unit filename="/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.cpp">
 			<Option target="table_tannis_champ_simulation"/>
 		</Unit>

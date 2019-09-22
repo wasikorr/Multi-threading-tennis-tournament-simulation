@@ -12,8 +12,6 @@
 
 #include "App.hpp"
 
-using namespace std;
-
 bool ready;
 char quit;
 
@@ -28,7 +26,7 @@ int main()
     srand(time(NULL));
     ready = true;
     App *app = new App();
-    app->initVisualisation();
+    app->drawManager->initVisualisation();
     runThreads(app);
     getchar();
     ready = false;
@@ -79,24 +77,23 @@ void draw_func(App *app)
         counter++;
 
         //rysowanie statyczne - bez zmian
-        app->drawView();
-        app->drawTables();
-        app->drawJudgeCenter();
-        app->drawBallCenter();
-        app->drawDeliverCenter();
+        app->drawManager->drawView();
+        app->drawManager->drawTables();
+        app->drawManager->drawJudgeCenter();
+        app->drawManager->drawBallCenter();
+        app->drawManager->drawDeliverCenter();
 
         //rysowanie dynamiczne
-        app->drawPlayers();
-        app->drawJudgeStatus();
-        app->drawBallAmount();
-        app->drawSecondsToDeliver();
+        app->drawManager->drawPlayers(app);
+        app->drawManager->drawJudgeStatus(app);
+        app->drawManager->drawBallAmount(app);
+        app->drawManager->drawSecondsToDeliver(app);
 
         refresh();
         // usleep(300);
         this_thread::sleep_for(chrono::milliseconds(200));
     }
 }
-
 void player_func(App *app, Player *player)
 {
     while (ready == true)
@@ -158,7 +155,6 @@ void player_func(App *app, Player *player)
         this_thread::sleep_for(chrono::seconds(breakTime));
     }
 }
-
 void judge_func(App *app)
 {
     while (ready == true)
@@ -223,7 +219,6 @@ void judge_func(App *app)
         this_thread::sleep_for(chrono::seconds(5));
     }
 }
-
 void deliver_func(App *app)
 {
     while (ready == true)

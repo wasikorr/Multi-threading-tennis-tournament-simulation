@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o"
   "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Ball.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/Ball.cpp.o"
+  "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/DrawManager.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.o"
   "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Judge.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/Judge.cpp.o"
   "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Player.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/Player.cpp.o"
   "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/Table.cpp" "/home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/bin/CMakeFiles/table_tannis_champ_simulation.dir/Table.cpp.o"

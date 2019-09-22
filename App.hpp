@@ -11,6 +11,7 @@
 #include "Judge.hpp"
 #include "Table.hpp"
 #include "Ball.hpp"
+#include "DrawManager.hpp"
 
 using namespace std;
 
@@ -18,30 +19,24 @@ class App
 {
 public:
     bool ready;
-    //TEST
-    mutex mutexPlayers[30];
-    condition_variable ifVarPlayers[30];
+    int secondsToDeliver;
 
-    //obiekty dla watkow
-    // Deliverer *deliverer;
+    DrawManager* drawManager;
+
     vector<Player *> players;
-    Judge *judge;
-
-    //obiekty dla zasobow
     vector<Ball *> balls;
     vector<Table *> tables;
-
-    //mutex dla stolow
-    mutex mutexTables;
-    condition_variable ifVarTables;
-
-    //mutex dla pilek
-    mutex mutexBalls;
-    condition_variable ifVarBalls;
-
-    //kolejka
-    mutex mutexForQueue;
+    Judge *judge;
     vector<Player *> queue;
+
+    mutex mutexTables;
+    mutex mutexPlayers[30];
+    mutex mutexBalls;
+    mutex mutexForQueue;
+
+    condition_variable ifVarTables;
+    condition_variable ifVarPlayers[30];
+    condition_variable ifVarBalls;
 
     App();
 
@@ -55,27 +50,6 @@ public:
     int getEndOfQueueX();
     int getQueueY();
     void correctQueuePositions();
-    bool isPlayerInQueue(Player *player);
-
-    int secondsToDeliver;
-
-    //wizualizacja
-    void basicVisualisation();
-    void drawPlayers();
-    void drawJudgeStatus();
-    void drawBallAmount();
-    void drawSecondsToDeliver();
-
-    //helpers dla wizualizacji
-    void initVisualisation();
-    void drawTables();
-    void drawView();
-    void drawJudgeCenter();
-    void drawBallCenter();
-    void drawDeliverCenter();
-
-    void drawTableSeats();
-    void drawTableSeats2();
 };
 
 #endif //TABLE_TANNIS_CHAMP_SIMULATION_APP_HPP

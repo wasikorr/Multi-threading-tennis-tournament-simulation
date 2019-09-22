@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/table_tannis_champ_simulation.dir/Ball.cpp.o"
   "CMakeFiles/table_tannis_champ_simulation.dir/Judge.cpp.o"
   "CMakeFiles/table_tannis_champ_simulation.dir/App.cpp.o"
+  "CMakeFiles/table_tannis_champ_simulation.dir/DrawManager.cpp.o"
   "table_tannis_champ_simulation.pdb"
   "table_tannis_champ_simulation"
 )
