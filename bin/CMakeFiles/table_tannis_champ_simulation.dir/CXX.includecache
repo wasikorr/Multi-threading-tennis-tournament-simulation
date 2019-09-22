@@ -15,10 +15,6 @@ pthread.h
 -
 iostream
 -
-thread
--
-algorithm
--
 App.hpp
 /home/jakub/Workspace/CLionProjects/table-tannis-champ-simulation/App.hpp
 
